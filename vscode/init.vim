@@ -8,3 +8,4 @@ set smarttab
 set tabstop=4
 set smartindent
 set number
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o

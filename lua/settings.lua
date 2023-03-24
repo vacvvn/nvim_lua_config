@@ -56,6 +56,11 @@ opt.completeopt = 'menuone,noselect'
 -- номер строк
 opt.number = true
 
+-- Netrw explorer settings
+--   tree instead of plain view
+g.netrw_liststyle = 3
+--   tree instead of plain view
+g.netrw_browse_split = 3 
 -- схема
 vim.cmd.colorscheme 'habamax'
 
