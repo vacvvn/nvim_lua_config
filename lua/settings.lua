@@ -57,6 +57,8 @@ opt.completeopt = 'menuone,noselect'
 opt.number = true
 
 -- Netrw explorer settings
+-- hide banner above files
+g.netrw_banner = 0 
 --   tree instead of plain view
 g.netrw_liststyle = 3
 --   tree instead of plain view
